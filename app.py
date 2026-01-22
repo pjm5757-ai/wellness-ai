@@ -1,11 +1,10 @@
 import sqlite3
 from datetime import datetime
 import streamlit as st
-from dotenv import load_dotenv
 from openai import OpenAI
 
 DB_PATH = "wellness.db"
-load_dotenv()
+
 client = OpenAI()  # OPENAI_API_KEY를 자동으로 읽음
 
 # ---------- DB ----------
