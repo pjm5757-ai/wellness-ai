@@ -1,0 +1,4 @@
+.env
+wellness.db
+__pycache__/
+*.pyc
