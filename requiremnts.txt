@@ -1,5 +1,5 @@
-openai==2.15.0
 streamlit==1.53.0
+
 
 
 
